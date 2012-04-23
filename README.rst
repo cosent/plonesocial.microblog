@@ -18,6 +18,10 @@ Plonesocial.microblog uses plone.app.discussion to store microblog status update
 
 This component provides only the status update form and storage. To display the stored microblog messages, use `plonesocial.activitystream`_ in combination with plonesocial.microblog, or install the full `plonesocial.suite`_.
 
+Plonesocial.microblog provides a microblogging solution for Plone using core content types only, without any external dependencies. It does not require an external service and can be set up and run with a normal Plone buildout configuration.
+
+This simplicity also has its downside: this native solution will not be as scalable as a solution that uses an external service. Take a look at the jarn.xmpp.* or collective.kwetter solutions for large-scale microblogging in Plone with very many users. The performance ceiling is as yet untested.
+
 
 Plonesocial
 ===========
