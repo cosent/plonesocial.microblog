@@ -20,11 +20,8 @@ in an annotation on the Site Root.
 
 It currently re-exposes a slightly modified p.a.discussion viewlet as a portlet.
 
-todo
-----
-
-- re-use the `plonesocial.activitystream`_ portlet for stream rendering
-- narrow the current portlet to only the status update input form
+This component provides only the status update form and storage. To display the
+stored microblog messages, use `plonesocial.activitystream`_.
 
 
 Plonesocial
