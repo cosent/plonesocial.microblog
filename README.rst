@@ -20,12 +20,6 @@ in an annotation on the Site Root.
 
 It currently re-exposes a slightly modified p.a.discussion viewlet as a portlet.
 
-bugs
-----
-
-- setting a real discussion comment somewhere else than on the SiteRoot
-  somehow also creates a second reply on the SiteRoot
-
 todo
 ----
 
