@@ -33,6 +33,7 @@ setup(name='plonesocial.microblog',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.app.discussion',
           # -*- Extra requirements: -*-
       ],
       extras_require={'test': ['plone.app.testing']},
