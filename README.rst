@@ -20,7 +20,16 @@ This component provides only the status update form and storage. To display the 
 
 Plonesocial.microblog provides a microblogging solution for Plone using core content types only, without any external dependencies. It does not require an external service and can be set up and run with a normal Plone buildout configuration.
 
-This simplicity also has its downside: this native solution will not be as scalable as a solution that uses an external service. Take a look at the jarn.xmpp.* or collective.kwetter solutions for large-scale microblogging in Plone with very many users. The performance ceiling is as yet untested.
+This simplicity also has its downside: this native solution will not be as scalable as a solution that uses an external service. Take a look at the jarn.xmpp.* or collective.kwetter solutions for large-scale microblogging in Plone with very many users. 
+
+That said, the intention is to make this native solution as fast and as scalable as possible. Work is currently in progress to introduce plone.app.async support.
+
+status
+------
+
+Alpha. This package is under active development and changes in backward-incompatible and forward-incompatible ways.
+
+Async support is under development but currently breaks. Normal installation without plone.app.async works just fine.
 
 
 Plonesocial
