@@ -14,22 +14,18 @@ you should install `plonesocial.suite`_ instead.
 plonesocial.microblog
 =====================
 
-Plonesocial.microblog uses plone.app.discussion to store microblog status updates in an annotation on the Site Root.
+Plonesocial.microblog provides a 'native' Plone microblogging solution that stores status updates in a performance-optimized annotation on the Site Root.
 
 This component provides only the status update form and storage. To display the stored microblog messages, use `plonesocial.activitystream`_ in combination with plonesocial.microblog, or install the full `plonesocial.suite`_.
 
 Plonesocial.microblog provides a microblogging solution for Plone using core content types only, without any external dependencies. It does not require an external service and can be set up and run with a normal Plone buildout configuration.
 
-This simplicity also has its downside: this native solution will not be as scalable as a solution that uses an external service. Take a look at the jarn.xmpp.* or collective.kwetter solutions for large-scale microblogging in Plone with very many users. 
-
-That said, the intention is to make this native solution as fast and as scalable as possible. Work is currently in progress to introduce plone.app.async support.
+The intention is to make this native solution as fast and as scalable as possible. 
 
 status
 ------
 
 Alpha. This package is under active development and changes in backward-incompatible and forward-incompatible ways.
-
-Async support is under development but currently breaks. Normal installation without plone.app.async works just fine.
 
 
 Plonesocial
