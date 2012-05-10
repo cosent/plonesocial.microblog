@@ -7,25 +7,24 @@ Plonesocial.microblog is part of the `plonesocial suite`_.
 
 This package provides a building block for Plone integrators who want to create a custom social business solution in Plone.
 
-If you're an end-user looking for a pre-integrated solution,
-you should install `plonesocial.suite`_ instead.
+If you're an end-user looking for a pre-integrated solution, you should install `plonesocial.suite`_ instead.
 
 
 plonesocial.microblog
 =====================
 
-Plonesocial.microblog provides a 'native' Plone microblogging solution that stores status updates in a performance-optimized annotation on the Site Root.
+Plonesocial.microblog provides a 'native' Plone microblogging solution that stores status updates in a performance-optimized site utility.
 
 This component provides only the status update form and storage. To display the stored microblog messages, use `plonesocial.activitystream`_ in combination with plonesocial.microblog, or install the full `plonesocial.suite`_.
 
 Plonesocial.microblog provides a microblogging solution for Plone using core content types only, without any external dependencies. It does not require an external service and can be set up and run with a normal Plone buildout configuration.
 
-The intention is to make this native solution as fast and as scalable as possible. 
+The intention is to make this native solution as simple and as fast as possible. The current implementation can handle more than 100 new messages per second in a stock Plone installation on outdated hardware.
 
 status
 ------
 
-Alpha. This package is under active development and changes in backward-incompatible and forward-incompatible ways.
+Alpha. This package is under active development and changes in backward-incompatible and forward-incompatible ways. That said, it is usable out of the box.
 
 
 Plonesocial
