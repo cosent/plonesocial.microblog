@@ -1,8 +1,63 @@
 Changelog
 =========
 
-0.1dev (unreleased)
+0.3 (2012-05-21)
+----------------
+
+* update changelog [gyst]
+* permission rename s/Read/View/ [gyst]
+* use accesscontrols in portlets [gyst]
+* disable accesscontrol in lowlevel unittests [gyst]
+* add access controls [gyst]
+* remove old plone.app.discussion compatibility view [gyst]
+* set a default limit to make it hard to accidentally list() a 100k StatusUpdate generator [gyst]
+* not using annotations anymore [gyst]
+* internal btrees are protected, not private anymore [gyst]
+* provide performance-optimized sorting/slicing accessors [gyst]
+* remove unused imports [gyst]
+* update doc [gyst]
+* provide translations [gyst]
+* switch from annotationstorage to a utility [gyst]
+* clean up interface and method signatures [gyst]
+* extract queuing functionality from base class to make life easier for future /self [gyst]
+* implement memory queue with batched disk writes for maximal performance [gyst]
+* user index accessors [gyst]
+* document interface and namespace annotation key [gyst]
+* provide test coverage [gyst]
+* extract documentation by Maurits on using separate ZODB mount from plonesocial.activitystream [gyst]
+* clean up views, remove plone.app.discussion dependency [gyst]
+* refactor view logic WIP [gyst]
+* close down some more methods [gyst]
+* credit Maurits [gyst]
+* refactor storage backend [gyst]
+* fork form and viewlet from p.a.d. [gyst]
+* Extract Maurits' activity model from plonesocial.activitystream https://github.com/mauritsvanrees/plonesocial.activitystream [gyst]
+* bump version [gyst]
+
+
+0.2 (2012-05-04)
+----------------
+
+* Prepare plonesocial.microblog 0.2. [gyst]
+* make portlet automatically assignable [gyst]
+* async WIP [gyst]
+* get rid of src dir indirection [gyst]
+* remove unneccessary test [gyst]
+* provide "compact" rendering option [gyst]
+* remove statuses display, keep only form [gyst]
+* fix duplicate commenting bug [gyst]
+* unittests [gyst]
+* tune doc [gyst]
+* update documentation [gyst]
+* cleanup [gyst]
+* provide proper browserlayer isolation [gyst]
+* anchor the microblog portlet to the SiteRoot singleton where we're storing our status updates [gyst]
+* customize comment rendering [gyst]
+* fork p.a.discussion comments rendering template [gyst]
+* render p.a.discussion comments as portlet, not as SiteRoot viewlet [gyst]
+
+0.1 (unreleased)
 -------------------
 
-- Package created using zopeskel
-  [Guido Stevens]
+* proof of concept [gyst]
+* initial checkin from ZopeSkel [gyst]
