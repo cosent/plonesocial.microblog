@@ -27,6 +27,12 @@ status
 Alpha. This package is under active development and changes in backward-incompatible and forward-incompatible ways. That said, it is usable out of the box.
 
 
+TODO
+----
+
+Indexing @username mentions for integration with plonesocial.network.
+
+
 Plonesocial
 ===========
 
@@ -42,7 +48,7 @@ Plonesocial consists of:
 `plonesocial.activitystream`_
  Lists content changes, discussion replies, and status updates
 
-plonesocial.network
+`plonesocial.network`_
  Follow/unfollow of users
 
 plonesocial.like
@@ -54,6 +60,6 @@ plonesocial.like
 .. _plonesocial suite: https://github.com/cosent/plonesocial.suite
 .. _plonesocial.microblog: https://github.com/cosent/plonesocial.microblog
 .. _plonesocial.activitystream: https://github.com/cosent/plonesocial.activitystream
-.. _plonesocial.suite: https://github.com/cosent/plonesocial.suite
+.. _plonesocial.network: https://github.com/cosent/plonesocial.network
 .. _plonesocial.buildout: https://github.com/cosent/plonesocial.buildout
 
