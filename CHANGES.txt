@@ -4,6 +4,7 @@ Changelog
 0.4 (2012-10-09)
 ----------------
 
+* .gitignores [gyst]
 * update docs [gyst]
 * fix dependency [gyst]
 * reindent for better pep8 [gyst]
