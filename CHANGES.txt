@@ -1,6 +1,25 @@
 Changelog
 =========
 
+0.4 (2012-10-09)
+----------------
+
+* update docs [gyst]
+* fix dependency [gyst]
+* reindent for better pep8 [gyst]
+* s/_flush_queue/flush_queue/ [gyst]
+* more styling [gyst]
+* style status form [gyst]
+* ignore compiled i18n stuff [gyst]
+* document mentions todo [gyst]
+* strip interpunction from tag index [gyst]
+* refactor into re-usable status input provider [gyst]
+* protect against site errors on (partial) uninstalls [gyst]
+* GS name [gyst]
+* implement hashtag filtering [gyst]
+* pep8 [gyst]
+* version bump to 0.4 [gyst]
+
 0.3 (2012-05-21)
 ----------------
 
