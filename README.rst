@@ -1,3 +1,7 @@
+.. image:: https://secure.travis-ci.org/cosent/plonesocial.microblog.png
+    :target: http://travis-ci.org/cosent/plonesocial.microblog
+
+
 Introduction
 ============
 
@@ -25,15 +29,15 @@ bugs
 
 Uninstalling either plonesocial.microblog or `plonesocial.network`_ removes both utilities, deleting all data.
 
-TODO
-----
+Roadmap
+-------
 
-Indexing @username mentions for integration with `plonesocial.network`_.
-
+An extensive roadmap_ for the plonesocial suite is available on github.
 
 .. _plonesocial suite: https://github.com/cosent/plonesocial.suite
 .. _plonesocial.suite: https://github.com/cosent/plonesocial.suite
 .. _plonesocial.activitystream: https://github.com/cosent/plonesocial.activitystream
 .. _plonesocial.network: https://github.com/cosent/plonesocial.network
+.. _roadmap: https://github.com/cosent/plonesocial.suite/wiki
 
 
