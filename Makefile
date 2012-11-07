@@ -4,6 +4,12 @@
 pep8_ignores = E501
 options = -N -q -t 3
 
+help:
+	@echo "Please use \`make <target>' where <target> is one of"
+	@echo " prerequisites    Install requisites"
+	@echo "       install    Install"
+	@echo "         tests    Run all testes"
+
 prerequisites:
 	sudo apt-get install -qq pep8 pyflakes
 	mkdir -p buildout-cache/downloads
