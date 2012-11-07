@@ -4,6 +4,8 @@
 pep8_ignores = E501
 options = -N -q -t 3
 
+.PHONY: help prerequisites install test
+
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo " prerequisites    Install requisites"
