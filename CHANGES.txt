@@ -20,6 +20,8 @@ Changelog
 * implement hashtag filtering [gyst]
 * pep8 [gyst]
 * version bump to 0.4 [gyst]
+* Fix pep8 [avelino]
+* add help (tag) in make file [avelino]
 
 0.3 (2012-05-21)
 ----------------
