@@ -1,11 +1,26 @@
 Changelog
 =========
 
-0.4.1 (unreleased)
+0.4.1 (2012-11-26)
 ------------------
 
-* Added Spanish translation. [macagua]
-* Added improvements about i18n support. [macagua]
+* update changelog, release [gyst]
+* update travis config to new buildout [gyst]
+* provide a virtualenv-enabled Travis buildout that can be debugged on a dev box [gyst]
+* Added l10n for English and Dutch for plone domain [macagua]
+* Updated Spanish l10n [macagua]
+* Updated sync i18n script with plone domain, added i18n for portlets, Generic Setup register Profile [macagua]
+* Updated changelog contributors files and sync i18n script with plone domain, added i18n for portlets, Generic Setup register Profile [macagua]
+* Makefile changes [avelino]
+* pep8 and cleanups [avelino]
+* pep8/pyflakes [gyst]
+* update Travis CI configuration to include pep8/pyflakes testing [hvelarde]
+* update location of extended configuration as the plonetest repo was moved to GitHub [hvelarde]
+* update list of ignored objects [hvelarde]
+* update doc, bump version [gyst]
+* cleanup buildout [gyst]
+* add Travis CI configuration [hvelarde]
+
 
 0.4 (2012-10-09)
 ----------------
