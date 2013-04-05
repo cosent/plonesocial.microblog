@@ -14,3 +14,4 @@ parts/
 var/
 dist/
 buildout-cache
+local/
