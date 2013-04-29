@@ -1,8 +1,24 @@
 Changelog
 =========
 
-Unreleased
-----------
+0.5 (Unreleased)
+----------------
+
+* Simplify API to filter on either user or context, but not on both. Cleanup and restructure implementation [gyst]
+* fix testing thread cleanup [gyst]
+* reword IMicroblogContext behavior [gyst]
+* add a behaviour for IMicroblogContext local microblog support interface [tdesvenain]
+* define IMicroblogContext interface as integration hook for local workspaces [gyst]
+* fix flake8 errors [gyst]
+* implement and integrate context permission checks for local microblog spaces [gyst]
+* context filtering by uuid [gyst]
+* integration test with actual plone.app.uuid resolving [gyst]
+* refactor to (mocked) plone.app.uuid integration [gyst]
+* base implementation for context-aware statuscontainer [gyst]
+
+
+0.4.2 (2013-04-29)
+------------------
 
 * Plone 4.3 compatiblity [tdesvenain]
 
