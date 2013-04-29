@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Unreleased
-----------
+0.4.2 (2013-04-29)
+------------------
 
 * Plone 4.3 compatiblity [tdesvenain]
 
