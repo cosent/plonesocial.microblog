@@ -24,6 +24,12 @@ Plonesocial.microblog provides a microblogging solution for Plone using core con
 
 The intention is to make this native solution as simple and as fast as possible. The current implementation can handle hundreds of new messages per second in a stock Plone installation on outdated hardware. It achieves this by using batched async commits (without using ``plone.app.async``) and by not indexing status updates in ZCatalog. Instead, custom indexes on time, author and tags are provided.
 
+upgrades
+--------
+
+An upgrade step is provided to add the UUID index introduced in 0.5 to older installations.
+
+
 bugs
 ----
 
