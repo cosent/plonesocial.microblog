@@ -35,7 +35,10 @@ setup(
         'setuptools',
         'plone.app.uuid',
         'Plone'],
-    extras_require={'test': ['plone.app.testing']},
+    extras_require={'test':
+                    ['plone.app.testing',
+                     'Acquisition',
+                     'ExtensionClass']},
     entry_points="""
       # -*- Entry points: -*-
           [z3c.autoinclude.plugin]

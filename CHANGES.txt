@@ -4,6 +4,7 @@ Changelog
 0.5 (Unreleased)
 ----------------
 
+* implement IMicroblogContext acquisition and storage for StatusUpdate [gyst, tdesvenain]
 * Simplify API to filter on either user or context, but not on both. Cleanup and restructure implementation [gyst]
 * fix testing thread cleanup [gyst]
 * reword IMicroblogContext behavior [gyst]
