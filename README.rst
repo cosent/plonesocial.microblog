@@ -12,6 +12,17 @@ If you're an integrator or end-user looking for a pre-integrated solution, you s
 This package, plonesocial.microblog, provides a building block for Plone developers who want to create a custom social business solution in Plone.
 You normally wouldn't want to modify this unless you know exactly what you're doing.
 
+Credits
+-------
+
+|Cosent|_
+
+This package is maintained by Cosent_.
+
+.. _Cosent: http://cosent.nl
+.. |Cosent| image:: http://cosent.nl/images/logo-external.png 
+                    :alt: Cosent
+
 
 plonesocial.microblog
 =====================
@@ -23,6 +34,18 @@ This component provides only the status update form and storage. To display the 
 Plonesocial.microblog provides a microblogging solution for Plone using core content types only, without any external dependencies. It does not require an external service and can be set up and run with a normal Plone buildout configuration.
 
 The intention is to make this native solution as simple and as fast as possible. The current implementation can handle hundreds of new messages per second in a stock Plone installation on outdated hardware. It achieves this by using batched async commits (without using ``plone.app.async``) and by not indexing status updates in ZCatalog. Instead, custom indexes on time, author and tags are provided.
+
+
+workspaces
+----------
+
+This package provides the "Hosts a local microblog" behavior that can be applied to Dexterity content. When applied to an context, it enables microblogging and activitystreams that are local to that context.
+
+You can also use this on Archetypes content by marking an object as providing the IMicroblogContext interface. An example taken from plonesocial.suite::
+
+        # enable local microblog
+        directlyProvides(portal.workspace, IMicroblogContext)
+
 
 upgrades
 --------
