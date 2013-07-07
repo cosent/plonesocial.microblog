@@ -1,9 +1,12 @@
 Changelog
 =========
 
-0.5 (Unreleased)
-----------------
+0.5.0 (2013-07-04)
+------------------
 
+* update docs [gyst]
+* finish IMicroblogContext implementation [gyst]
+* provide upgrade step to add uuid mapping on older installed microblog tool [gyst]
 * implement IMicroblogContext acquisition and storage for StatusUpdate [gyst, tdesvenain]
 * Simplify API to filter on either user or context, but not on both. Cleanup and restructure implementation [gyst]
 * fix testing thread cleanup [gyst]
