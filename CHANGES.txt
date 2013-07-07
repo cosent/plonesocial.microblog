@@ -4,7 +4,8 @@ Changelog
 0.5.0 (Unreleased)
 ------------------
 
-* Few fixes on microblog context when we are in subfolders of context.
+* French translation [tdesvenain]
+* Few fixes on microblog context when we are in subfolders of context [tdesvenain]
 
 0.5.0 (2013-07-04)
 ------------------
