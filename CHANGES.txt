@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.5.0 (Unreleased)
+0.5.0 (2013-07-31)
 ------------------
 
 * use backwardly compatible accessor [gyst]
