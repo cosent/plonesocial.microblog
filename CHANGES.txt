@@ -1,9 +1,10 @@
 Changelog
 =========
 
-0.5.0 (2013-07-31)
+0.5.1 (2013-07-31)
 ------------------
 
+* bump version after having pypi release confusion [gyst]
 * use backwardly compatible accessor [gyst]
 * trust context=None defaults [gyst]
 * French translation [tdesvenain]
