@@ -4,7 +4,7 @@ Changelog
 0.5.3 ()
 ------------------
 
-* use UID from brain Don't do getobject
+* use UID from brain Don't do getobject [maartenkling]
 
 0.5.2 (2013-07-31)
 ------------------
