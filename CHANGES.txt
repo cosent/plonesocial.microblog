@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.5.3 (unreleased)
+------------------
+
+* Brazilian Portuguese translation was added.
+  [hvelarde]
+
 0.5.2 (2013-07-31)
 ------------------
 
