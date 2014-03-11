@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.5.3 (unreleased)
+0.5.3 (2014-03-11)
 ------------------
 
 * Package distribution was fixed by adding classifiers, dependencies and
