@@ -8,7 +8,7 @@ test:
 	bin/flake8 plonesocial
 
 bin/buildout: bin/python
-	bin/easy_install zc.buildout==1.6.3
+	bin/easy_install zc.buildout==1.7.1
 	bin/easy_install distribute==0.6.28
 
 bin/python:
