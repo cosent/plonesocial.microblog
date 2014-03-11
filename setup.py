@@ -16,7 +16,7 @@ setup(
     description="Simple microblogging in Plone",
     long_description=long_description,
     classifiers=[
-        #'Development Status :: 3 - Alpha',
+        'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
         'Framework :: Plone :: 4.2',
         'Framework :: Plone :: 4.3',
