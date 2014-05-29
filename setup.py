@@ -56,7 +56,9 @@ setup(
     extras_require={
         'test': [
             'ExtensionClass',
+            'plone.api',
             'plone.app.testing',
+            'plone.browserlayer',
             'unittest2',
         ],
     },
