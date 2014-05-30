@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.5.4 ()
+------------------
+
+* use UID from brain Don't do getobject
+  [maartenkling]
+
 0.5.3 (2014-03-11)
 ------------------
 
