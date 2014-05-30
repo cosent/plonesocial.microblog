@@ -1,10 +1,21 @@
 Changelog
 =========
 
-0.5.3 ()
+0.5.4 ()
 ------------------
 
-* use UID from brain Don't do getobject [maartenkling]
+* use UID from brain Don't do getobject
+  [maartenkling]
+
+0.5.3 (2014-03-11)
+------------------
+
+* Package distribution was fixed by adding classifiers, dependencies and
+  fixing license version number as GPLv2; a MANIFEST.in file was also added.
+  [hvelarde]
+
+* Brazilian Portuguese translation was added.
+  [hvelarde]
 
 0.5.2 (2013-07-31)
 ------------------
