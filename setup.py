@@ -44,6 +44,7 @@ setup(
         'plone.behavior',
         'plone.portlets',
         'plone.uuid',
+        'plone.api',
         'Products.CMFCore',
         'Products.CMFPlone >=4.2',
         'Products.GenericSetup',
@@ -56,7 +57,6 @@ setup(
     extras_require={
         'test': [
             'ExtensionClass',
-            'plone.api',
             'plone.app.testing',
             'plone.browserlayer',
             'unittest2',
