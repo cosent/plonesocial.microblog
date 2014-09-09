@@ -7,6 +7,9 @@ Changelog
 * use UID from brain Don't do getobject
   [maartenkling]
 
+* add url preview tool that adapts StatusUpdate and returns list of image links
+  [amleczko]
+
 0.5.3 (2014-03-11)
 ------------------
 

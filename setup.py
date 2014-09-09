@@ -48,6 +48,7 @@ setup(
         'Products.CMFCore',
         'Products.CMFPlone >=4.2',
         'Products.GenericSetup',
+        'requests',
         'setuptools',
         'zope.component',
         'zope.i18nmessageid',
