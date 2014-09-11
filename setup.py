@@ -45,6 +45,7 @@ setup(
         'plone.portlets',
         'plone.uuid',
         'plone.api',
+        'plonesocial.core',
         'Products.CMFCore',
         'Products.CMFPlone >=4.2',
         'Products.GenericSetup',
