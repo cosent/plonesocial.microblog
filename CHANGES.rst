@@ -1,7 +1,14 @@
 Changelog
 =========
 
-0.5.4 ()
+0.7.0 (unreleased)
+------------------
+
+* "Berlin" sprint frontend rewrite based on patternslib 
+
+* merge "Conversation" sprint reply-to-statusupdate
+
+0.5.4 (unreleased)
 ------------------
 
 * use UID from brain Don't do getobject
