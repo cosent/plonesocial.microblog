@@ -62,6 +62,7 @@ setup(
             'ExtensionClass',
             'plone.app.testing',
             'plone.browserlayer',
+            'ploneintranet.attachments',
             'unittest2',
         ],
     },
