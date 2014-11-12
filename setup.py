@@ -45,6 +45,7 @@ setup(
         'plone.portlets',
         'plone.uuid',
         'plone.api',
+        'plonesocial.activitystream',
         'plonesocial.core',
         'Products.CMFCore',
         'Products.CMFPlone >=4.2',
