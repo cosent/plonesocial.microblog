@@ -5,8 +5,11 @@ Changelog
 ------------------
 
 * Portlets can work on Plone4 and on Plone5
-* merge "Conversation" sprint reply-to-statusupdate
+* URL preview test do not fetch remote resources to avoid timeout
   [ale-rt]
+
+* merge "Conversation" sprint reply-to-statusupdate
+
 * "Berlin" sprint frontend rewrite based on patternslib
 
 
