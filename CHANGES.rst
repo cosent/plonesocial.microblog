@@ -4,9 +4,11 @@ Changelog
 0.7.0 (unreleased)
 ------------------
 
-* "Berlin" sprint frontend rewrite based on patternslib 
-
+* Portlets can work on Plone4 and on Plone5
 * merge "Conversation" sprint reply-to-statusupdate
+  [ale-rt]
+* "Berlin" sprint frontend rewrite based on patternslib
+
 
 0.5.4 (unreleased)
 ------------------
