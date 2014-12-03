@@ -4,7 +4,10 @@ Changelog
 0.7.0 (unreleased)
 ------------------
 
-* "Berlin" sprint frontend rewrite based on patternslib 
+* URL preview test do not fetch remote resources to avoid timeout
+  [ale-rt]
+
+* "Berlin" sprint frontend rewrite based on patternslib
 
 * merge "Conversation" sprint reply-to-statusupdate
 
