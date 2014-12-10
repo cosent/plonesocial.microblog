@@ -60,9 +60,11 @@ setup(
     extras_require={
         'test': [
             'ExtensionClass',
+            'Mock',
             'plone.app.testing',
             'plone.browserlayer',
             'ploneintranet.attachments',
+            'unittest2',
             'unittest2',
         ],
     },
