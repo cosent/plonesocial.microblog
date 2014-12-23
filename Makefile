@@ -4,8 +4,8 @@ buildout: bin/buildout buildout-cache/downloads
 	bin/buildout -c buildout.cfg -N -t 3
 
 test:
-	bin/test
-	bin/flake8 plonesocial
+	bin/test -s plonesocial.microblog
+	bin/flake8 src/plonesocial
 
 bin/buildout: bin/python
 	bin/easy_install zc.buildout==1.7.1

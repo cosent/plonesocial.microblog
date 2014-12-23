@@ -14,4 +14,8 @@ parts/
 var/
 dist/
 buildout-cache
-local/
+.coverage
+.mr.developer.cfg
+src/ploneintranet.attachments/
+src/plonesocial.activitystream/
+src/plonesocial.core/
