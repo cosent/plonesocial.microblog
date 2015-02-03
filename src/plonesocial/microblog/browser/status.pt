@@ -24,7 +24,7 @@
                            target: #activity-stream::before
                            && #new-post-box"
           tal:condition="view/compact"
-          tal:attributes="action request/ACTUAL_URL">
+          tal:attributes="action string:${request/ACTUAL_URL}?redirect=${context/absolute_url}">
 
       <script type="text/javascript">
         <!-- Ideally this will be a separate pattern one day -->
