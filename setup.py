@@ -41,6 +41,7 @@ setup(
         'Acquisition',
         'plone.app.layout',
         'plone.app.portlets',
+        'plone.app.tiles',
         'plone.app.uuid',
         'plone.behavior',
         'plone.portlets',
