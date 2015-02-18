@@ -40,6 +40,8 @@ class NewPostBoxTile(Tile):
         ''' The context of this microblog post
         (the portal, a workspace, and so on...)
         '''
+        if self.thread_id:
+            return self.post_container.get(self.thread_id)
         return get_microblog_context(self.context)
 
     @property
@@ -73,6 +75,8 @@ class NewPostBoxTile(Tile):
         ''' Return the thread_id
         (used e.g. for commenting other status updates)
         '''
+        if 'thread_id' in self.request:
+            return self.request.get('thread_id')
         if hasattr(self.context, 'thread_id') and self.context.thread_id:
             thread_id = self.context.thread_id  # threaded
         elif isinstance(self.context, StatusUpdate):
