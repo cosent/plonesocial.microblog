@@ -6,6 +6,7 @@ from plonesocial.microblog.testing import (
     PLONESOCIAL_MICROBLOG_INTEGRATION_TESTING
 )
 from plonesocial.microblog.statusupdate import StatusUpdate
+from time import sleep
 from zope.interface import alsoProvides
 import unittest2 as unittest
 
@@ -71,3 +72,53 @@ class TestSetup(unittest.TestCase):
         # calling update does not create a post
         tile.update()
         self.assertIsInstance(tile.post, StatusUpdate)
+
+    def test_newpostbox_tile_submission_on_statusupdate(self):
+        ''' This will test the existence of the newpostbox.tile
+        and its functionality
+        '''
+        # First we post
+        request = self.request.clone()
+        request.form.update({
+            'form.widgets.text': u'Testing post',
+            # 'form.widgets.attachments': u'No attachments',
+            'form.buttons.statusupdate': '1'
+        })
+        request.other['ACTUAL_URL'] = 'http://nohost'
+        tile = api.content.get_view(
+            'newpostbox.tile',
+            self.portal,
+            request
+        )
+        tile.update()
+
+        # Now we have a post with an id
+        thread_id = tile.post.id
+
+        # Then we post a reply on it
+        request = self.request.clone()
+        request.other['ACTUAL_URL'] = 'http://nohost'
+        request.form.update({
+            'form.widgets.text': u'Testing replies',
+            'thread_id': thread_id,
+            'form.buttons.statusupdate': '1',
+        })
+        tile = api.content.get_view(
+            'newpostbox.tile',
+            self.portal,
+            request
+        )
+        # the tile works in the context os the previous status update
+        self.assertEqual(tile.post_context.id, thread_id)
+        # that has no repies
+        replies = tuple(tile.post_context.replies())
+        self.assertEqual(len(replies), 0)
+        # until the tile is processed
+        tile.update()
+        # after the async machinery has finished
+        # we have one reply
+        sleep(1)
+        replies = tuple(tile.post_context.replies())
+        self.assertEqual(len(replies), 1)
+        # which is our newly created post
+        self.assertEqual(replies[0], tile.post)
