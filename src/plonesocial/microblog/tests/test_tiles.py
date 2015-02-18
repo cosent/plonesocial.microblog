@@ -5,6 +5,7 @@ from plonesocial.microblog.tool import MicroblogTool
 from plonesocial.microblog.testing import (
     PLONESOCIAL_MICROBLOG_INTEGRATION_TESTING
 )
+from plonesocial.activitystream.interfaces import IStatusActivityReply
 from plonesocial.microblog.statusupdate import StatusUpdate
 from time import sleep
 from zope.interface import alsoProvides
@@ -122,3 +123,6 @@ class TestSetup(unittest.TestCase):
         self.assertEqual(len(replies), 1)
         # which is our newly created post
         self.assertEqual(replies[0], tile.post)
+        # We want the reply to implement IStatusActivityReply to prevent
+        # having it listed directly in the stream
+        self.assertTrue(IStatusActivityReply.providedBy(tile.post))
