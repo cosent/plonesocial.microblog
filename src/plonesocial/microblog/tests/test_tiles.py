@@ -118,7 +118,7 @@ class TestSetup(unittest.TestCase):
         tile.update()
         # after the async machinery has finished
         # we have one reply
-        sleep(1)
+        sleep(2)
         replies = tuple(tile.post_context.replies())
         self.assertEqual(len(replies), 1)
         # which is our newly created post
