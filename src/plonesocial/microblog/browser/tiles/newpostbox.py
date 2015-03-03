@@ -40,8 +40,6 @@ class NewPostBoxTile(Tile):
         ''' The context of this microblog post
         (the portal, a workspace, and so on...)
         '''
-        if self.thread_id:
-            return self.post_container.get(self.thread_id)
         return get_microblog_context(self.context)
 
     @property
