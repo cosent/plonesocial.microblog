@@ -78,7 +78,7 @@
       <fieldset>
         <p class="content-mirror"
           ><span class="text"
-            ><em class="placeholder" tal:content="view/placeholder">What are you doing?</em></span
+            ><em class="placeholder" tal:attributes="id string:mirror-${form_id}" tal:content="view/placeholder">What are you doing?</em></span
           ><em class="selected-users" id="selected-users"
             ><tal:users tal:condition="request/users|nothing"> — <tal:block tal:repeat="user request/users|nothing"
               ><a tal:define="fullname python:context.portal_membership.getMemberById(user).getProperty('fullname')"
@@ -94,7 +94,8 @@
                   class="pat-content-mirror pat-switch"
                   data-pat-switch="#new-post-box status-inactive status-active"
                   tal:attributes="placeholder view/placeholder;
-                                  data-pat-switch string:#${form_id} status-inactive status-active"
+                                  data-pat-switch string:#${form_id} status-inactive status-active;
+                                  data-pat-content-mirror string:target: #mirror-${form_id}"
                   name="form.widgets.text"></textarea>
 
         <fieldset
