@@ -19,3 +19,4 @@ buildout-cache
 src/ploneintranet.attachments/
 src/plonesocial.activitystream/
 src/plonesocial.core/
+local/
