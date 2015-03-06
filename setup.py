@@ -67,7 +67,7 @@ setup(
             'plone.browserlayer',
             'ploneintranet.attachments',
             'unittest2',
-            'unittest2',
+            'plone.app.contenttypes [test]',
         ],
     },
     entry_points="""
