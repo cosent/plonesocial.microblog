@@ -42,7 +42,7 @@ class StatusAttachments(BrowserView):
         else:
             length = imgdata.get_size(obj)
             R.setHeader('content-length', length)
-            return imgdata.download(obj, REQUEST=self.request)
+            return imgdata.get(obj)
 
     def __call__(self):
 
