@@ -91,6 +91,12 @@ class NewPostBoxTile(Tile):
             thread_id = None  # new
         return thread_id
 
+    @property
+    def post_id(self):
+        """ In case we just posted, return the post's id.
+        """
+        return getattr(self, 'post', None) and self.post.id or None
+
     def userid2fullname(self, userid):
         """ Return the fullname for the post
         """
@@ -154,7 +160,7 @@ class NewPostBoxTile(Tile):
         """ When updating we may want to process the form data and,
         if needed, create a post
         """
-        if self.is_posting:
+        if self.is_posting and self.post_text:
             self.post = self.create_post()
             # BBB We're using the ActivityProvider from ps.activitystream
             # here for rendering the (singular) status post that was just

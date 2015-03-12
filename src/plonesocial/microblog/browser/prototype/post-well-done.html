@@ -7,7 +7,7 @@
     <metal:block use-macro="here/upload.html/main" />
     <div id="activity-stream"
         tal:define="activity_providers newpostbox_view/activity_providers;
-                    thread_id newpostbox_view/post/id">
+                    thread_id newpostbox_view/post_id">
         <metal:block use-macro="here/activity-stream.html/main" />
     </div>
   </metal:macro>
