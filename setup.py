@@ -65,7 +65,7 @@ setup(
             'Mock',
             'plone.app.testing',
             'plone.browserlayer',
-            'ploneintranet.attachments',
+            'ploneintranet',
             'unittest2',
             'plone.app.contenttypes [test]',
         ],
