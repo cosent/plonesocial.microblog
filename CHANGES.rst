@@ -132,21 +132,21 @@ Changelog
 * user index accessors [gyst]
 * document interface and namespace annotation key [gyst]
 * provide test coverage [gyst]
-* extract documentation by Maurits on using separate ZODB mount from plonesocial.activitystream [gyst]
+* extract documentation by Maurits on using separate ZODB mount from ploneintranet.activitystream [gyst]
 * clean up views, remove plone.app.discussion dependency [gyst]
 * refactor view logic WIP [gyst]
 * close down some more methods [gyst]
 * credit Maurits [gyst]
 * refactor storage backend [gyst]
 * fork form and viewlet from p.a.d. [gyst]
-* Extract Maurits' activity model from plonesocial.activitystream https://github.com/mauritsvanrees/plonesocial.activitystream [gyst]
+* Extract Maurits' activity model from ploneintranet.activitystream https://github.com/mauritsvanrees/ploneintranet.activitystream [gyst]
 * bump version [gyst]
 
 
 0.2 (2012-05-04)
 ----------------
 
-* Prepare plonesocial.microblog 0.2. [gyst]
+* Prepare ploneintranet.microblog 0.2. [gyst]
 * make portlet automatically assignable [gyst]
 * async WIP [gyst]
 * get rid of src dir indirection [gyst]

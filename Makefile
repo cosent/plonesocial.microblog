@@ -4,8 +4,8 @@ buildout: bin/buildout
 	bin/buildout -c buildout.cfg -N
 
 test:
-	bin/test -s plonesocial.microblog
-	bin/flake8 src/plonesocial
+	bin/test -s ploneintranet.microblog
+	bin/flake8 src/ploneintranet
 
 bin/buildout: bin/python
 	bin/pip install -r requirements.txt

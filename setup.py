@@ -11,7 +11,7 @@ long_description = (
     + '\n')
 
 setup(
-    name='plonesocial.microblog',
+    name='ploneintranet.microblog',
     version=version,
     description="Simple microblogging in Plone",
     long_description=long_description,
@@ -31,10 +31,10 @@ setup(
     keywords='plone socbiz social microblog',
     author='Guido Stevens',
     author_email='guido.stevens@cosent.net',
-    url='http://github.com/cosent/plonesocial.microblog',
+    url='http://github.com/cosent/ploneintranet.microblog',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    namespace_packages=['plonesocial'],
+    namespace_packages=['ploneintranet'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
@@ -47,8 +47,8 @@ setup(
         'plone.portlets',
         'plone.uuid',
         'plone.api',
-        'plonesocial.activitystream',
-        'plonesocial.core',
+        'ploneintranet.activitystream',
+        'ploneintranet.core',
         'Products.CMFCore',
         'Products.CMFPlone >=4.2',
         'Products.GenericSetup',
